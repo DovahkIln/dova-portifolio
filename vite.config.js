@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     allowedHosts: ['0.tcp.sa.ngrok.io']
-  }
+  },
+  base: '/portfolio-dova/'
 })
